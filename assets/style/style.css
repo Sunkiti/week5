@@ -1,0 +1,72 @@
+.root {
+    font-weight: bold;
+    background-color:lightgrey;
+    min-height: 500px;
+}
+.header {
+    background-color: lightgrey;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+.article {
+    display: flex;
+    min-height: 200px;
+    width: 70%;
+    background-color: lightyellow;
+    flex-direction: column;
+    justify-content: center;
+}
+.text {
+    display:flex;
+    align-items:baseline;
+    justify-content: center;
+    background-color: lightyellow;
+}
+.more {
+    display: flex;
+    justify-content: space-around;
+}
+.more1 {
+    display: flex;
+    width: 350px;
+    height: 60px;
+    background-color: rgb(255, 237, 136);
+    justify-content: center;
+    align-items: center;
+}
+.more3 {
+    display:flex;
+    width: 650;
+    height: 60px;
+    background-color: rgb(255, 237, 136);
+    justify-content: center;
+    align-items:center;
+    margin: 40px;
+}
+.aside {
+    display: flex;
+    min-height: 200px;
+    width: 30%;
+    background-color: rgb(177, 223, 177);
+    justify-content: center;
+    padding-top: 20px;
+}
+.footer {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+p {
+    background-color: white;
+    padding: 30px;
+}
+
+
